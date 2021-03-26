@@ -1,0 +1,103 @@
+
+body, html {
+    background-color: #111122;
+    color: #cccccc;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+}
+h1 {
+    margin-left: 14px;
+}
+input {
+    border-radius: 4px;
+    padding: 10px;
+    border: none;
+    background-color: #111122;
+    color: white;
+    border: 1px solid white;
+}
+.buttons {
+    margin-right: 15px;
+}
+.btn {
+    padding: 10px 15px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 20px;
+    background-color: #cccccc;
+    color: #111122;
+    text-decoration: none;
+    border: 2px solid #cccccc;
+    display: inline-block;
+}
+.inverted {
+    color: #cccccc;
+    background-color: #111122;
+}
+.btn:hover {
+    background-color: #dddddd;
+    transition: all 200ms;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+button.submit {
+    drop-shadow: none;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: green;
+    color: white;
+    border: none;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.prompt {
+    margin-top: 90px;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+}
+.w-100 {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.half {
+    max-width: 50%; 
+}
+.bb {
+    box-sizing: border-box;
+}
+.big {
+    min-height: 90vh;
+}
+.w-75 {
+    width: 75%;
+}
+.m-auto {
+    margin: auto;
+    padding: 0;
+}
+footer {
+    padding: 40px;
+    background-color: #111314;
+    color: white;
+    min-height: 10vh;
+    margin-top: 40px;
+}
+footer .col b {
+margin-bottom: 5px;
+display: inline-block;
+}
+.col {
+width: 25%; 
+
+}
