@@ -1,0 +1,22 @@
+{
+  "name": "acb-sales",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattschlosser/acb-sales.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattschlosser/acb-sales/issues"
+  },
+  "homepage": "https://github.com/mattschlosser/acb-sales#readme",
+  "devDependencies": {
+    "prettier": "2.2.1"
+  }
+}
