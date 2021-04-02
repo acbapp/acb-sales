@@ -6,9 +6,21 @@ color: #cccccc;
   font-weight: 400;
   margin: 0 auto;
   overflow: auto;
+  position: relative;
+}
+.font-weight-900 {
+  font-weight: 900;
+}
+.card {
+  color: black;
+}
+input {
+  border-bottom: none;
+}
+.rounder {
+  border-radius: 15px;
 }
 .jumbo {
-  font-size: 2rem;
   padding: 15px;
   box-sizing: border-box11;
   text-align: center;
@@ -18,14 +30,12 @@ color: #cccccc;
 
 .jumbo h1 {
   font-weight: 800;
+  font-size: 4rem;
   margin-top: 0;
 }
 h1 {
   margin: none;
   margin-left: 14px;
-}
-header {
-  /* border-bottom: 4px solid #111111; */
 }
 footer a {
   color: white;
@@ -37,7 +47,8 @@ footer a:hover {
 }
 input {
   border-radius: 10px 0px 0px 10px;
-  padding: 20px;
+  padding: 10px;
+  font-size: 1.4rem;
   margin: 0px;
   outline: none ;  
   border-top-style: hidden;
@@ -45,7 +56,7 @@ input {
   border-left-style: hidden;
   border-bottom-style: hidden;
   box-sizing: border-box;
-  border: none impo !important;
+  border: none !important;
   background-color: #111122;
   color: white;
   border: 1px solid white;
@@ -56,8 +67,11 @@ input:first {
 .buttons {
   margin-right: 15px;
 }
+.pad {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 .btn {
-  padding: 10px 15px;
   box-sizing: border-box;
   border-radius: 4px;
   /* margin-top: 20px; */
@@ -98,26 +112,28 @@ button.submit {
   display: inline-block;
   padding: 20px 12px;
   box-sizing: border-box;
-  width: 25%;
+  /* width: 25%; */
   border-radius:  0px 10px 10px 0px;
   background-color: green;
   color: white;
   border: none;
 }
 .container {
-  width: 100%;
+  /* width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
-  padding: 20px;
+  padding: 20px; */
 }
 .w-50 {
   width: 50%;
 }
 .submit {
     border-radius: 10px;  
+    font-size: 1.4rem;
+    /* width: 100%; */
 }
 .half {
   background-color: rgb(244, 244, 244, 0.8);
@@ -137,15 +153,6 @@ header nav a {
   text-decoration: none;
   padding: 14px 56px;
 }
-.prompt {
-  /* margin-top: 90px; */
-  margin-bottom: 20px;
-  font-size: 1.4rem;
-}
-.w-100 {
-  width: 100%;
-  margin-bottom: 20px;
-}
 .half {
   width: 50%;
   border-radius: 10px;
@@ -153,11 +160,11 @@ header nav a {
 .d-flex {
     display: flex;
 }
-.bb {
+.bb-disabled {
   box-sizing: border-box;
 }
 .w-75 {
-  width: 75%;
+  width: 60%;
 }
 .m-auto {
   margin: auto;
@@ -182,6 +189,10 @@ footer .col b {
 width: 25%; 
   width: 25%;
 }
+.pos-bot {
+  position: absolute;
+  bottom: 0;
+}
 .em {
   font-size: 1.8rem;
   font-weight: 800;
@@ -197,6 +208,9 @@ header a {
   }
   .jumbo {
     font-size: 0.8rem;
+  }
+  .jumbo h1 {
+    font-size: 2rem;
   }
   footer {
     padding: 10px;

@@ -5,11 +5,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ACB</title>
+  
+  <meta name="description" content="ACB makes it downright simple to calculate your adjusted cost base and keep track of your captial gains and losses in Canada.">
+  <title>ACB | Calculate your Adjusted Cost Base in minutes</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
+
 </head>
 
 <body>
@@ -27,8 +30,8 @@
         </nav>
       </div>
       <div class='buttons'>
-        <a href="signup.htm" class="btn">Sign up </a>
-        <a href="signin.htm" class="btn inverted">Log In</a>
+        <a href="http://app.acb.tax/login" class="btn">Sign up </a>
+        <a href="http://app.acb.tax/register" class="btn inverted">Log In</a>
       </div>
     </div>
   </header>
@@ -40,27 +43,28 @@
     </div>
   </div>
 
-  <div class="container big">
-    <div class='half'>
-      <div class='prompt'>
-        Calculate the adjusted cost base in minutes.
-        <br /><br />
-        Free forever for unlimited transactions.
-      </div>
-
-      <form netlify>
-        <div class='d-flex w-100 bb'>
-          <input class='w-75' name="email" type="email" placeholder="Email Address" ata-netlify="sign-me-up">
-          </input>
-          <button class="w-25 submit" type="submit">Sign Me Up</button>
-        </div>
-      </form>
-    </div>
-    <div class='w-100'>
-
-    </div>
+  <div class="container">
     <div class="row">
-      <div class='col-sm-12 col-md-6'>
+      <div class='col-6 card rounder'>
+        <div class='card-body'>
+          <div class='card-text'>
+            <h2 class="font-weight-900">Sign up to get notified when the app goes live</h2>
+            Calculate the adjusted cost base in minutes.
+            <br /><br />
+            Free forever for unlimited transactions.
+            <br/>
+            <form netlify>
+              <div class='row mt-3'>
+                <input class="col-7" name="email" type="email" placeholder="Email Address" ata-netlify="sign-me-up">
+                </input>
+                <button class="col-5 submit text-size-lg" class="btn btn-block" type="submit">Sign Me Up</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col-12"></div>
+      <div class='col-sm-12 col-md-6 mt-3 pad'>
         <h2>What is ACB?</h2>
         <p>
           ACB, or adjusted cost base, is a method for calculating capital gains and losses 
@@ -72,7 +76,7 @@
           and more, all for FREE!
         </p>
       </div>
-      <div class="col-sm-12 col-md-6">
+      <div class="col-sm-12 col-md-6 pad mt-3">
         <table class="table table-responsive">
           <thead>
             <tr>
@@ -163,7 +167,7 @@
                 $0
               </td>
               <td>
-                 $12
+                $12
               </td>
               <td>0
               </td>
@@ -171,11 +175,11 @@
           </tbody>
         </table>
       </div>
-  </div>
+    </div>
   </div>
 
   <footer>
-    <div class='container w-100'>
+    <div class='pos-rel bot container w-100'>
       <div class="w-100 d-flex flex-wrap">
         <div class="col-sm-12 col-md-3">
           <b>About</b>
