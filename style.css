@@ -12,7 +12,12 @@ color: #cccccc;
   font-weight: 900;
 }
 .card {
-  color: black;
+  margin-top: 40px;
+  
+  color: #272755;
+}
+.card {
+  background-color: #afaff6ee;
 }
 input {
   border-bottom: none;
@@ -33,6 +38,9 @@ input {
   font-size: 4rem;
   margin-top: 0;
 }
+a:hover {
+  color: inherit;
+}
 h1 {
   margin: none;
   margin-left: 14px;
@@ -47,7 +55,7 @@ footer a:hover {
 }
 input {
   border-radius: 10px 0px 0px 10px;
-  padding: 10px;
+  padding: 5px;
   font-size: 1.4rem;
   margin: 0px;
   outline: none ;  
@@ -81,6 +89,9 @@ input:first {
   border: 2px solid #cccccc;
   display: inline-block;
 }
+.checks .items {
+  font-size: 1.5rem;
+}
 .inverted {
   color: #cccccc;
   background-color: #111122;
@@ -97,6 +108,10 @@ input:first {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.card-text {
+  /* margin-top: 15px; */
+  font-size: 1.5rem;
+}
 table thead th {
   color: white;  
   text-align: center;
@@ -105,18 +120,28 @@ table tbody td {
   color: white;
   text-align: center;
 }
+.checks {
+  font-size: 2.0rem;
+}
+.checks .material-icons {
+  color: greenyellow;
+}
 .align-end {
   align-items: center;
 }
 button.submit {
   display: inline-block;
-  padding: 20px 12px;
+  padding: 15px 12px;
   box-sizing: border-box;
   /* width: 25%; */
   border-radius:  0px 10px 10px 0px;
   background-color: green;
   color: white;
+  transition: background-color 250ms ease-in-out;
   border: none;
+}
+button.submit:hover {
+  background-color: #339933;
 }
 .container {
   /* width: 100%;
